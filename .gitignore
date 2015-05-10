@@ -1,0 +1,14 @@
+# -*- mode: gitignore-mode; coding: utf-8; -*-
+#
+# .gitignore
+#
+
+# Emacs Temporary files
+*~
+\#*#
+
+# Bower directoty
+bower_components/
+
+# NodeJS directory
+node_modules/
