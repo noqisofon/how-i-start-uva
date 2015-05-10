@@ -1,0 +1,6 @@
+# -*- coding: utf-8; -*-
+#+title: README
+#+author: ned rihine
+#+language: ja
+
+これは架空のプログラミング言語 Uva のチュートリアル的な本みたいなものです。
