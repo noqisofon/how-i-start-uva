@@ -1,9 +1,45 @@
-@charset "utf-8"
+@charset "utf-8";
 
 html {
     color: #2b2b2b;  /* 黒 */
-    font-family: 'メイリオ', 'TakaoPGothic';
+    font-family: 'メイリオ', 'Migu 1C', 'TakaoPGothic', sans-serif;
 }
+
+body {
+    background-color: #e6eae3;   /* 灰黄緑 */
+}
+
+div p {
+    padding-left: 3%;
+    line-height: 170%;
+}
+
+hr {
+    width: 88%;
+    border: none;
+    border-top: #adadb0 3px groove;  /* 銀鼠 */
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+/* 未訪問のリンクの色 */
+a:link {
+    color: #00a497;   /* 翡翠色 */
+}
+
+/* 訪問済みのリンクの色 */
+a:visited {
+    color: #1f3134;  /* 百入茶 */
+}
+
+/* カーソルが乗っているリンクの色 */
+a:hover, a:active {
+    text-decoration: underline;
+}
+
 
 div#page {
     width: 100%;
@@ -11,9 +47,7 @@ div#page {
 }
 
 div#contents {
-    margin: auto;
     padding: 10em;
-    background-color: #e6eae3;   /* 灰黄緑 */
 }
 
 div#post {
@@ -25,10 +59,14 @@ div#post {
     width: 77%;
 }
 
-.center {
+h1.title {
     text-align: center;
 }
 
-.copyright {
+p.copyright {
+    margin-left: 25%;
+}
+
+div.table-of-contents ol {
     margin-left: 4em;
 }
