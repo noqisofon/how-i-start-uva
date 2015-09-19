@@ -1,0 +1,23 @@
+{
+  "name": "how-i-start-uva",
+  "version": "0.0.0",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "ned rihine"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/noqisofon/how-i-start-uva",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-less": "*"
+  }
+}
